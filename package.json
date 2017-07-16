@@ -1,0 +1,32 @@
+{
+  "name": "sen-cli",
+  "version": "1.0.0",
+  "description": "SEN - Stream Editor for N00bs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+    "prepublishOnly": "prepublish.sh"
+  },
+  "author": "Vinicius Senna",
+  "license": "ISC",
+  "devDependencies": {
+    "cli-manpage": "0.0.17",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "marked-man": "^0.2.1",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "byline": "^5.0.0",
+    "commander": "git+https://github.com/sennav/commander.js.git"
+  },
+  "bin": {
+    "sen": "sen.js",
+    "sen-replace": "sen-replace.js",
+    "sen-add": "sen-add.js",
+    "sen-remove": "sen-remove.js",
+    "sen-removelines": "sen-replace.js"
+  },
+  "man": "sen.1"
+}

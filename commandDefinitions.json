@@ -1,0 +1,22 @@
+{
+    "replace": {
+        "command": "replace",
+        "usage": "<toReplace> <replacer> <files or stdin>",
+        "description": "Replace pattern throughout the stream."
+    },
+    "add": {
+        "command": "add",
+        "usage": "<lines> <lineToAdd> <files or stdin>",
+        "description": "Add line at given positions (int comma separated)."
+    },
+    "remove": {
+        "command": "remove",
+        "usage": "<pattern> <files or stdin>",
+        "description": "Remove lines matching pattern."
+    },
+    "removelines": {
+        "command": "removelines",
+        "usage": "<lines> <files or stdin>",
+        "description": "Remove lines at given positions (int comma separated)."
+    }
+}
